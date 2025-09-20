@@ -1,7 +1,9 @@
 # RISC-V-chip-tapeout
 # week 0:Tools installation
 1.installation of virtualbox
+
 2.runing Ubuntu
+
 3.inatalling Yosys:
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys 
@@ -12,11 +14,14 @@ $ sudo apt-get install build-essential clang bison flex \
     libboost-python-dev libboost-filesystem-dev zlib1g-dev
 $ make 
 $ sudo make install
+
 4.install iverilog
 $ sudo apt-get install iverilog
+
 5.install gtkwave
 sudo apt-get update
 sudo apt install gtkwave
+
 6.ngspice
 downloading the tarball from https://sourceforge.net/projects/ngspice/files/ to a local
 directory, unpack it using:
@@ -27,6 +32,7 @@ $ cd release
 $ ../configure --with-x --with-readline=yes --disable-debug
 $ make
 $ sudo make install 
+
 7.magic
 $ sudo apt-get install m4
 $ sudo apt-get install tcsh
